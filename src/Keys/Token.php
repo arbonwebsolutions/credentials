@@ -2,7 +2,7 @@
 
 namespace Arbon\Credentials\Keys;
 
-abstract class Token extends Key
+class Token extends Key
 {
     public $token;
 

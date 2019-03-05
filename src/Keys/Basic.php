@@ -2,7 +2,7 @@
 
 namespace Arbon\Credentials\Keys;
 
-abstract class Basic extends Key
+class Basic extends Key
 {
     public $username;
     public $password;

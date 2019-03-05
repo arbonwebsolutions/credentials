@@ -2,7 +2,7 @@
 
 namespace Arbon\Credentials\Grants\OAuth2;
 
-abstract class ClientCredentials extends OAuth2
+class ClientCredentials extends OAuth2
 {
     public function __construct($client_id, $client_secret, $token_url, $scope)
     {

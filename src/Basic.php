@@ -5,10 +5,15 @@ namespace Arbon\Credentials;
 class Basic extends Credentials
 {
     public function getUserName() {
-        return $this->getKey()->username;
+        return $this->getKey()->getUserName();
     }
 
     public function getPassword() {
-        return $this->getKey()->password;
+        return $this->getKey()->getPassword();
     }    
+
+    public function getAccountIdentifier()
+    {
+        return $this->getKey()->getAccountIdentifier(); 
+    }
 }

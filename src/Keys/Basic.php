@@ -7,7 +7,7 @@ abstract class Basic extends Key
     public $username;
     public $password;
 
-    public function __construct($client_company_id, $username, $password)
+    public function __construct($username, $password, $client_company_id = null)
     {
         $this->username = $username;
         $this->password = $password;

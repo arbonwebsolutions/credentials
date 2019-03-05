@@ -2,7 +2,7 @@
 
 namespace Arbon\Credentials\Keys;
 
-abstract class Credentials
+abstract class Key
 {
     protected $client_company_id;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Tylercd100\Credentials\Grants;
+namespace Arbon\Credentials\Grants;
 
 
 abstract class Grant

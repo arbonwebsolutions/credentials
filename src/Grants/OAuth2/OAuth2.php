@@ -1,9 +1,9 @@
 <?php
 
-namespace Tylercd100\Credentials\Grants\OAuth2;
+namespace Arbon\Credentials\Grants\OAuth2;
 
-use Tylercd100\Credentials\Grants\Grant;
-use Tylercd100\Credentials\Keys\OAuth2\Token;
+use Arbon\Credentials\Grants\Grant;
+use Arbon\Credentials\Keys\OAuth2\Token;
 use GuzzleHttp\Client;
 
 abstract class OAuth2 extends Grant

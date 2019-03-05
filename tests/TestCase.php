@@ -1,6 +1,6 @@
 <?php
 
-namespace Tylercd100\Credentials\Tests;
+namespace Arbon\Credentials\Tests;
 
 use PHPUnit\Framework\TestCase as PHPUnitTestCase;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Tylercd100\Credentials\Keys\OAuth2;
+namespace Arbon\Credentials\Keys\OAuth2;
 
-use Tylercd100\Credentials\Keys\Key;
+use Arbon\Credentials\Keys\Key;
 
 class Token extends Key 
 {

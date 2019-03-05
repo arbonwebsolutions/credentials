@@ -1,27 +1,27 @@
 {
-    "name": "tylercd100/credentials",
+    "name": "arbonwebsolutions/credentials",
     "description": "Abstract Credential Classes for PHP",
     "keywords": [
         "php",
         "credentials",
         "abstract"
     ],
-    "homepage": "https://github.com/tylercd100/credentials",
+    "homepage": "https://github.com/arbonwebsolutions/credentials",
     "license": "MIT",  
     "authors": [
         {
             "name": "Tyler Arbon",
-            "email": "tylercd100@gmail.com"
+            "email": "arbonwebsolutions@gmail.com"
         }
     ],
     "autoload":{
         "psr-4":{
-            "Tylercd100\\Credentials\\": "src/"
+            "Arbon\\Credentials\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Tylercd100\\Credentials\\Tests\\": "tests/"
+            "Arbon\\Credentials\\Tests\\": "tests/"
         }
     },
     "minimum-stability": "stable",

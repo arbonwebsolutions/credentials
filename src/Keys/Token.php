@@ -1,6 +1,6 @@
 <?php
 
-namespace Tylercd100\Credentials\Keys;
+namespace Arbon\Credentials\Keys;
 
 abstract class Token extends Key
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Tylercd100\Credentials\Grants\OAuth2;
+namespace Arbon\Credentials\Grants\OAuth2;
 
 abstract class ClientCredentials extends OAuth2
 {

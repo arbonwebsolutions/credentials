@@ -1,6 +1,6 @@
 <?php
 
-namespace Tylercd100\Credentials;
+namespace Arbon\Credentials;
 
 class Basic extends Credentials
 {
